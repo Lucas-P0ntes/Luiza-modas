@@ -4,33 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
 
-    <title>Document</title>
-</head>
-<body>
-    <nav style="background-color: palevioletred;" class="navbar navbar-expand-lg navbar-dark ">
-        <a class="navbar-brand" href="#">Luiza Modas</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">Home </a>
-              </li>
-            <li class="nav-item ">
-              <a class="nav-link" href="meus-produtos.html">Meus produtos </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="sobre-nos.html">Sobre nós</a>
-            </li>
-            <li class="nav-item  active">
-              <a class="nav-link" href="contato.html">Contato</a>
-            </li>
-          </ul>
+    <!-- Custom CSS -->
+    <link href="assets/css/styles.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/animate-custom.css" rel="stylesheet"> 
+    <script src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
+    <title>Luiza Modas </title>
+  </head>
+    <body data-target="#navbar-main">
+    
+      <div id="navbar-main"> 
+        <!-- Fixed navbar -->
+        <div class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container">
+         
+            <div class="navbar-header">
+           <div class="pull-left logo">
+              <a class="" href="#home"><h1 style="color:palevioletred">Luiza Modas</h1></a>
+             </div>
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+              </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav pull-right">
+                <li><a href="index.html">Início</a></li>
+              <li><a href="meus-produtos.html">Roupas</a></li>
+              <li><a href="sobre-nos.html"> Sobre nós</a></li>
+              <li><a href="contato.html" style="color:palevioletred">Contato</a></li>
+              </ul>
+            </div>
+            <!--/.nav-collapse --> 
+          </div>
         </div>
-      </nav>
+      </div>
      <div class="container mt-4">
     <h1>Contato</h1>
     <hr>
@@ -55,9 +63,13 @@
       </div>
       <div class="col-md-6">
         <h3>Informações de Contato</h3>
-        <p><strong>Endereço:</strong> Rua Exemplo, 123 - Cidade, Estado</p>
-        <p><strong>Telefone:</strong> (00) 1234-5678</p>
-        <p><strong>E-mail:</strong> info@lojaroupasfemininas.com</p>
+        <p><strong>Endereço:</strong> Águas Lindas de Goias, Jardim Brasília , feira dos Goinaos</p>
+        <p><strong>Telefone:</strong> (61)995987136 </p>
+        <p><strong>Instagram:</strong> https://www.instagram.com/l_luizamodas/</p>
+
+        <div class="map-responsive">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1914.4391123093616!2d-48.120770776315155!3d-15.717715806267058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935c5438836e4f61%3A0xbec2e5c634aaf78e!2sJardim%20Bras%C3%ADlia%2C%20%C3%81guas%20Lindas%20de%20Goi%C3%A1s%20-%20GO%2C%2072750-000!5e0!3m2!1sen!2sbr!4v1623741730405!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>        
       </div>
     </div>
   </div>
